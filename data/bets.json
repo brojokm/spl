@@ -538,5 +538,265 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-03-27T23:18:46.376317"
+  },
+  {
+    "match_id": 8,
+    "team": "The Dabbawala Dominators",
+    "prediction": "CSK",
+    "amount": 2000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-29T18:33:46.468301"
+  },
+  {
+    "match_id": 8,
+    "team": "BizTech - Sunrisers",
+    "prediction": "RCB",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "won",
+    "winnings": 10000000,
+    "timestamp": "2025-03-29T18:33:55.617737"
+  },
+  {
+    "match_id": 8,
+    "team": "BizTech - Kings",
+    "prediction": "CSK",
+    "amount": 10000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-29T18:34:15.283171"
+  },
+  {
+    "match_id": 8,
+    "team": "BizTech - Royals",
+    "prediction": "RCB",
+    "amount": 10000000,
+    "is_home_team": true,
+    "status": "won",
+    "winnings": 40000000,
+    "timestamp": "2025-03-29T18:34:22.228932"
+  },
+  {
+    "match_id": 8,
+    "team": "MI OwlRisers",
+    "prediction": "CSK",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-29T18:34:29.898312"
+  },
+  {
+    "match_id": 8,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "RCB",
+    "amount": 1500000,
+    "is_home_team": true,
+    "status": "won",
+    "winnings": 6000000,
+    "timestamp": "2025-03-29T18:34:44.801321"
+  },
+  {
+    "match_id": 8,
+    "team": "The Winning Team",
+    "prediction": "CSK",
+    "amount": 2000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-29T18:38:46.354441"
+  },
+  {
+    "match_id": 8,
+    "team": "Chennai Debug Kings",
+    "prediction": "CSK",
+    "amount": 2000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-29T18:41:41.932366"
+  },
+  {
+    "match_id": 9,
+    "team": "The Dabbawala Dominators",
+    "prediction": "MI",
+    "amount": 10000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:16:51.346479"
+  },
+  {
+    "match_id": 9,
+    "team": "MI OwlRisers",
+    "prediction": "MI",
+    "amount": 25000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:17:08.578459"
+  },
+  {
+    "match_id": 9,
+    "team": "BizTech - Kings",
+    "prediction": "MI",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:17:33.290553"
+  },
+  {
+    "match_id": 9,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "MI",
+    "amount": 7000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:18:00.144739"
+  },
+  {
+    "match_id": 9,
+    "team": "BizTech - Sunrisers",
+    "prediction": "MI",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:18:10.809773"
+  },
+  {
+    "match_id": 9,
+    "team": "The Winning Team",
+    "prediction": "MI",
+    "amount": 5000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:18:31.837753"
+  },
+  {
+    "match_id": 10,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "SRH",
+    "amount": 1500000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:20:27.624399"
+  },
+  {
+    "match_id": 10,
+    "team": "BizTech - Kings",
+    "prediction": "DC",
+    "amount": 2000000,
+    "is_home_team": false,
+    "status": "won",
+    "winnings": 4000000,
+    "timestamp": "2025-03-31T02:20:49.757917"
+  },
+  {
+    "match_id": 10,
+    "team": "The Winning Team",
+    "prediction": "DC",
+    "amount": 1500000,
+    "is_home_team": false,
+    "status": "won",
+    "winnings": 3000000,
+    "timestamp": "2025-03-31T02:21:33.160570"
+  },
+  {
+    "match_id": 10,
+    "team": "MI OwlRisers",
+    "prediction": "SRH",
+    "amount": 35000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:21:53.981168"
+  },
+  {
+    "match_id": 10,
+    "team": "The Dabbawala Dominators",
+    "prediction": "SRH",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:22:12.981734"
+  },
+  {
+    "match_id": 10,
+    "team": "BizTech - Sunrisers",
+    "prediction": "SRH",
+    "amount": 20000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:22:25.447246"
+  },
+  {
+    "match_id": 10,
+    "team": "BizTech - Royals",
+    "prediction": "SRH",
+    "amount": 2000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:23:04.035246"
+  },
+  {
+    "match_id": 11,
+    "team": "MI OwlRisers",
+    "prediction": "RR",
+    "amount": 40000000,
+    "is_home_team": false,
+    "status": "won",
+    "winnings": 80000000,
+    "timestamp": "2025-03-31T02:25:01.493544"
+  },
+  {
+    "match_id": 11,
+    "team": "BizTech - Sunrisers",
+    "prediction": "RR",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "won",
+    "winnings": 10000000,
+    "timestamp": "2025-03-31T02:25:34.508932"
+  },
+  {
+    "match_id": 11,
+    "team": "BizTech - Kings",
+    "prediction": "CSK",
+    "amount": 5000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:25:48.102301"
+  },
+  {
+    "match_id": 11,
+    "team": "The Winning Team",
+    "prediction": "CSK",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:26:06.178712"
+  },
+  {
+    "match_id": 11,
+    "team": "The Dabbawala Dominators",
+    "prediction": "CSK",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-03-31T02:26:14.544259"
   }
 ]
