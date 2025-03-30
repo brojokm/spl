@@ -17,6 +17,9 @@ PASSWORD_HASH = "f1697db23226e6cc2483c266370b5cd0e8a89f700515f6bc98d2b4a9ff17dc9
 # Create a cookie file path
 COOKIE_FILE = "data/.auth_cookie"
 
+# Ensure data directory exists
+os.makedirs("data", exist_ok=True)
+
 # Initialize session state for authentication
 if 'authenticated' not in st.session_state:
     # Check if there's a valid auth cookie

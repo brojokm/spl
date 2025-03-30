@@ -9,6 +9,8 @@ from core.excel_storage import init_excel_files
 import json
 from datetime import datetime
 import pandas as pd
+from core.github_storage import test_github_connection
+from core.github_storage import update_json_file
 
 # Initialize session state for confirmation dialog
 if 'confirm_update' not in st.session_state:
@@ -207,6 +209,47 @@ st.markdown("""
     }
     .home-link a:hover {
         text-decoration: underline;
+    }
+
+    /* GitHub sync button styling */
+    .github-sync-btn {
+        width: 50% !important;
+        background-color: #4CAF50 !important;
+        color: white !important;
+        font-weight: bold !important;
+        padding: 0.75rem !important;
+        border-radius: 5px !important;
+        border: none !important;
+        cursor: pointer !important;
+        margin-top: 10px !important;
+    }
+    
+    .github-sync-btn:hover {
+        background-color: #45a049 !important;
+    }
+            
+
+    /* GitHub sync button styling */
+    .github-sync-btn1 {
+        width: 150% !important;
+        background-color: #4CAF50 !important;
+        color: white !important;
+        font-weight: bold !important;
+        padding: 0.75rem !important;
+        border-radius: 5px !important;
+        border: none !important;
+        cursor: pointer !important;
+        margin-top: 10px !important;
+    }
+    
+    .github-sync-btn:hover {
+        background-color: #45a049 !important;
+    }
+
+    /* Override button width only in sidebar */
+    [data-testid="stSidebar"] .stButton button {
+        width: 100% !important;
+        margin: 5px 0 !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -475,3 +518,71 @@ with st.container():
                 st.rerun()
         
         st.markdown("</div>", unsafe_allow_html=True) 
+
+def sync_data_to_github():
+    """Force sync all data files to GitHub"""
+    # from core.github_storage import update_json_file
+    
+    success = True
+    messages = []
+    
+    try:
+        # Load data files
+        with open("data/teams.json") as f:
+            teams = json.load(f)
+        with open("data/matches.json") as f:
+            matches = json.load(f)
+        try:
+            with open("data/bets.json") as f:
+                bets = json.load(f)
+        except:
+            bets = []
+            
+        # Update GitHub
+        if not update_json_file("data/teams.json", teams):
+            success = False
+            messages.append("Failed to sync teams.json")
+            
+        if not update_json_file("data/matches.json", matches):
+            success = False
+            messages.append("Failed to sync matches.json")
+            
+        if not update_json_file("data/bets.json", bets):
+            success = False
+            messages.append("Failed to sync bets.json")
+            
+        if success:
+            return True, "All data successfully synced to GitHub"
+        else:
+            return False, "Some files failed to sync: " + ", ".join(messages)
+            
+    except Exception as e:
+        return False, f"Error syncing data: {str(e)}"
+
+# Add this button to your sidebar
+with st.sidebar:
+    st.markdown("""
+    <h2 class='section-header' style='text-align: center; margin-top: 50px;'>GitHub Integration</h2>
+    """, unsafe_allow_html=True)
+    
+    # Test connection button
+    if st.button("Test GitHub Connection", key="github-sync-btn", use_container_width=True):
+        with st.spinner("Testing GitHub connection..."):
+            success, message = test_github_connection()
+            if success:
+                st.success(message)
+            else:
+                st.error(message)
+    
+    # Force sync button
+    if st.button("Force Sync to GitHub", key="github-sync-btn1", use_container_width=True):
+        with st.spinner("Syncing data to GitHub..."):
+            success, message = test_github_connection()
+            if not success:
+                st.error(f"Could not connect to GitHub: {message}")
+            else:
+                success, message = sync_data_to_github()
+                if success:
+                    st.success(message)
+                else:
+                    st.error(message)
