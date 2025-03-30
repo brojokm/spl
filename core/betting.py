@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 from core.excel_storage import backup_to_excel
-from core.github_storage import update_json_file
+from core.github_storage import update_json_file, batch_update_github_files
 
 def place_bet(team_name, match_id, prediction, amount):
     # Load data from JSON
@@ -63,9 +63,11 @@ def place_bet(team_name, match_id, prediction, amount):
     with open("data/teams.json", "w") as f:
         json.dump(teams, f, indent=2)
     
-    # Update GitHub repository
-    update_json_file("data/bets.json", bets)
-    update_json_file("data/teams.json", teams)
+    # Update GitHub repository using batch update
+    batch_update_github_files({
+        "data/bets.json": bets,
+        "data/teams.json": teams
+    })
     
     # Backup to Excel
     backup_to_excel()

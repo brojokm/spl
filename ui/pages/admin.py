@@ -11,6 +11,8 @@ from datetime import datetime
 import pandas as pd
 from core.github_storage import test_github_connection
 from core.github_storage import update_json_file
+import time
+from core.github_storage import batch_update_github_files
 
 # Initialize session state for confirmation dialog
 if 'confirm_update' not in st.session_state:
@@ -520,11 +522,7 @@ with st.container():
         st.markdown("</div>", unsafe_allow_html=True) 
 
 def sync_data_to_github():
-    """Force sync all data files to GitHub"""
-    # from core.github_storage import update_json_file
-    
-    success = True
-    messages = []
+    """Force sync all data files to GitHub using batch update"""
     
     try:
         # Load data files
@@ -538,23 +536,20 @@ def sync_data_to_github():
         except:
             bets = []
             
-        # Update GitHub
-        if not update_json_file("data/teams.json", teams):
-            success = False
-            messages.append("Failed to sync teams.json")
-            
-        if not update_json_file("data/matches.json", matches):
-            success = False
-            messages.append("Failed to sync matches.json")
-            
-        if not update_json_file("data/bets.json", bets):
-            success = False
-            messages.append("Failed to sync bets.json")
-            
+        # Create file-data map for batch update
+        files_data = {
+            "data/teams.json": teams,
+            "data/matches.json": matches,
+            "data/bets.json": bets
+        }
+        
+        # Perform batch update
+        success, message = batch_update_github_files(files_data)
+        
         if success:
             return True, "All data successfully synced to GitHub"
         else:
-            return False, "Some files failed to sync: " + ", ".join(messages)
+            return False, f"Some files failed to sync:\n{message}"
             
     except Exception as e:
         return False, f"Error syncing data: {str(e)}"
