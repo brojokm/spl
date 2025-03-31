@@ -61,7 +61,7 @@
     "team1": "CSK",
     "team2": "RCB",
     "venue": "MA Chidambaram Stadium, Chennai",
-    "winner": null
+    "winner": "RCB"
   },
   {
     "match_id": 9,
@@ -69,7 +69,7 @@
     "team1": "GT",
     "team2": "MI",
     "venue": "Narendra Modi Stadium, Ahmedabad",
-    "winner": null
+    "winner": "GT"
   },
   {
     "match_id": 10,
@@ -77,7 +77,7 @@
     "team1": "DC",
     "team2": "SRH",
     "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
-    "winner": null
+    "winner": "DC"
   },
   {
     "match_id": 11,
@@ -85,7 +85,7 @@
     "team1": "RR",
     "team2": "CSK",
     "venue": "Barsapara Cricket Stadium, Guwahati",
-    "winner": null
+    "winner": "RR"
   },
   {
     "match_id": 12,

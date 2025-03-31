@@ -1,5 +1,6 @@
 import json
 from core.excel_storage import backup_to_excel
+from core.github_storage import update_json_file
 
 def update_result(match_id, winner):
     # Validate winner is not empty
@@ -63,6 +64,11 @@ def update_result(match_id, winner):
             json.dump(bets, f, indent=2)
         with open("data/teams.json", "w") as f:
             json.dump(teams, f, indent=2)
+        
+        # Update GitHub repository
+        update_json_file("data/matches.json", matches)
+        update_json_file("data/bets.json", bets)
+        update_json_file("data/teams.json", teams)
         
         # Backup to Excel
         backup_to_excel()
