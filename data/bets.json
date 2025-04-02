@@ -848,5 +848,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-02T21:15:11.926726"
+  },
+  {
+    "match_id": 12,
+    "team": "Chennai Debug Kings",
+    "prediction": "MI",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-02T21:15:44.190470"
   }
 ]
