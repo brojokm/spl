@@ -875,8 +875,8 @@
     "prediction": "PBKS",
     "amount": 4000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 8000000,
     "timestamp": "2025-04-02T21:19:09.739580"
   },
   {
@@ -885,7 +885,7 @@
     "prediction": "LSG",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-02T21:19:34.351322"
   },
@@ -895,7 +895,7 @@
     "prediction": "LSG",
     "amount": 2000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-02T21:19:50.783908"
   },
@@ -905,8 +905,8 @@
     "prediction": "PBKS",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-02T21:20:13.095189"
   },
   {
@@ -915,7 +915,7 @@
     "prediction": "LSG",
     "amount": 2000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-02T21:20:32.177623"
   },
@@ -925,8 +925,8 @@
     "prediction": "PBKS",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-02T21:20:58.721440"
   },
   {
@@ -935,8 +935,8 @@
     "prediction": "PBKS",
     "amount": 1500000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 3000000,
     "timestamp": "2025-04-02T21:21:24.626588"
   }
 ]
