@@ -1008,5 +1008,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-02T21:25:06.978494"
+  },
+  {
+    "match_id": 14,
+    "team": "The Winning Team",
+    "prediction": "GT",
+    "amount": 4000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-02T21:25:19.622809"
   }
 ]
