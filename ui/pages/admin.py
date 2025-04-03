@@ -30,7 +30,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for dark theme with better contrast
+# Custom CSS for responsive design with table text color fixes
 st.markdown("""
 <style>
     /* Base theme */
@@ -39,23 +39,24 @@ st.markdown("""
         color: #e0e0e0;
     }
     
-    /* Increase sidebar width */
+    /* Responsive sidebar */
     [data-testid="stSidebar"] {
-        min-width: 530px !important;
-        max-width: 530px !important;
+        min-width: min(30vw, 150px) !important;
+        max-width: min(30vw, 250px) !important;
     }
     
-    /* Headers */
+    /* Headers with responsive font sizes */
     .main-header {
-        font-size: 2rem;
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
         color: #89b4fa;
         text-align: center;
         margin-bottom: 0.8rem;
         padding-bottom: 0.8rem;
         border-bottom: 2px solid #313244;
     }
+    
     .section-header {
-        font-size: 1.5rem;
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
         color: #89b4fa;
         margin-top: 1.5rem;
         padding-bottom: 0.4rem;
@@ -63,40 +64,35 @@ st.markdown("""
     }
     
     /* Boxes */
-    .info-box {
-        margin-bottom: 0.8rem;
-    }
-    .success-box {
-        margin-bottom: 0.8rem;
-    }
-    .warning-box {
-        margin-bottom: 0.8rem;
-    }
-    .match-details {
+    .info-box, .success-box, .warning-box, .match-details {
         margin-bottom: 0.8rem;
     }
     
-    /* Buttons */
+    /* Responsive buttons */
     .stButton button {
         background-color: #128306;
         color: #1e1e2e;
         font-weight: bold;
         border-radius: 5px;
         padding: 0.4rem 0.8rem;
-        width: 20%;
+        width: auto !important;
+        min-width: 120px;
+        max-width: 200px;
         margin: 0 auto;
         display: block;
     }
+    
     .stButton button:hover {
         background-color: #16a108;
     }
     
-    /* Text highlights */
+    /* Text highlights with responsive sizing */
     .team-balance {
-        font-size: 1.3rem;
+        font-size: clamp(1rem, 1.5vw, 1.3rem);
         font-weight: bold;
         color: #89b4fa;
     }
+    
     .home-team {
         font-weight: bold;
         color: #a6e3a1;
@@ -108,31 +104,88 @@ st.markdown("""
         border-color: #45475a;
         color: #e0e0e0;
     }
+    
     div.stNumberInput > div > div > input {
         background-color: #313244;
         border-color: #45475a;
         color: #e0e0e0;
     }
+    
     .stSlider > div > div {
         background-color: #45475a;
     }
+    
     .stSlider > div > div > div > div {
         background-color: #89b4fa;
     }
     
-    /* Tables */
-    .dataframe {
-        font-size: 0.9rem !important;
+    /* TABLE TEXT COLOR FIXES - DARK THEME */
+    /* Force white text for all tables in dark theme */
+    .stApp[data-theme="dark"] table,
+    .stApp[data-theme="dark"] th,
+    .stApp[data-theme="dark"] td,
+    .stApp[data-theme="dark"] tr {
+        color: white !important;
     }
-    .dataframe th {
+    
+    .stApp[data-theme="dark"] .dataframe {
+        color: white !important;
+    }
+    
+    .stApp[data-theme="dark"] .dataframe th {
         background-color: #45475a !important;
-        color: #cdd6f4 !important;
+        color: white !important;
         padding: 0.4rem !important;
     }
-    .dataframe td {
+    
+    .stApp[data-theme="dark"] .dataframe td {
         background-color: #313244 !important;
-        color: #e0e0e0 !important;
+        color: white !important;
         padding: 0.4rem !important;
+    }
+    
+    /* TABLE TEXT COLOR FIXES - LIGHT THEME */
+    /* Force dark text for all tables in light theme */
+    .stApp[data-theme="light"] table,
+    .stApp[data-theme="light"] th,
+    .stApp[data-theme="light"] td,
+    .stApp[data-theme="light"] tr {
+        color: #333333 !important;
+    }
+    
+    .stApp[data-theme="light"] .dataframe {
+        color: #333333 !important;
+    }
+    
+    .stApp[data-theme="light"] .dataframe th {
+        background-color: #c1c8e4 !important;
+        color: #333333 !important;
+        padding: 0.4rem !important;
+    }
+    
+    .stApp[data-theme="light"] .dataframe td {
+        background-color: #e8eaf6 !important;
+        color: #333333 !important;
+        padding: 0.4rem !important;
+    }
+    
+    /* Fix for any text inside table cells */
+    .stApp[data-theme="dark"] td div,
+    .stApp[data-theme="dark"] th div,
+    .stApp[data-theme="dark"] td span,
+    .stApp[data-theme="dark"] th span,
+    .stApp[data-theme="dark"] td p,
+    .stApp[data-theme="dark"] th p {
+        color: white !important;
+    }
+    
+    .stApp[data-theme="light"] td div,
+    .stApp[data-theme="light"] th div,
+    .stApp[data-theme="light"] td span,
+    .stApp[data-theme="light"] th span,
+    .stApp[data-theme="light"] td p,
+    .stApp[data-theme="light"] th p {
+        color: #333333 !important;
     }
     
     /* Make everything more compact */
@@ -140,22 +193,45 @@ st.markdown("""
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    
     div.row-widget.stRadio > div {
         flex-direction: row;
         align-items: center;
     }
+    
     div.row-widget.stRadio > div[role="radiogroup"] > label {
         margin: 0 0.5rem 0 0;
         padding: 0.2rem 0.5rem;
     }
+    
     .stTextInput > div > div > input {
         padding: 0.4rem;
     }
     
     /* Update result container */
     .update-result-container {
-        max-width: 75%;
+        max-width: 90%;
         margin: 0 auto;
+    }
+    
+    /* History table */
+    .history-won {
+        color: #a6e3a1 !important;
+        font-weight: bold;
+    }
+    
+    .history-lost {
+        color: #f38ba8 !important;
+        font-weight: bold;
+    }
+    
+    /* Fix for light theme history */
+    [data-theme="light"] .history-won {
+        color: #388e3c !important;
+    }
+    
+    [data-theme="light"] .history-lost {
+        color: #d32f2f !important;
     }
     
     /* Form container */
@@ -167,11 +243,17 @@ st.markdown("""
         max-width: 90%;
     }
     
+    /* Fix for light theme form container */
+    [data-theme="light"] .form-container {
+        background-color: #e8eaf6;
+        border: 1px solid #c5cae9;
+    }
+    
     /* Logout button */
     .logout-button button {
         width: 100% !important;
     }
-
+    
     /* Section containers with border */
     .section-box {
         background-color: #313244;
@@ -179,6 +261,12 @@ st.markdown("""
         padding: 1.5rem;
         margin-bottom: 2rem;
         border: 2px solid #45475a;
+    }
+    
+    /* Fix for light theme section box */
+    [data-theme="light"] .section-box {
+        background-color: #e8eaf6;
+        border: 1px solid #c5cae9;
     }
     
     /* Make form submit button green */
@@ -189,9 +277,11 @@ st.markdown("""
         border-radius: 5px !important;
         border: none !important;
     }
+    
     .stButton>button:hover, div[data-testid="stFormSubmitButton"] button:hover {
         background-color: #16a108 !important;
     }
+    
     .stButton>button:active, div[data-testid="stFormSubmitButton"] button:active {
         background-color: #0f6605 !important;
     }
@@ -204,18 +294,29 @@ st.markdown("""
         border-radius: 5px;
         text-align: center;
     }
+    
     .home-link a {
         color: #89b4fa;
         text-decoration: none;
         font-weight: bold;
     }
+    
     .home-link a:hover {
         text-decoration: underline;
     }
-
+    
+    /* Fix for light theme home link */
+    [data-theme="light"] .home-link {
+        background-color: #e8eaf6;
+    }
+    
+    [data-theme="light"] .home-link a {
+        color: #3949ab;
+    }
+    
     /* GitHub sync button styling */
-    .github-sync-btn {
-        width: 50% !important;
+    .github-sync-btn, .github-sync-btn1 {
+        width: 100% !important;
         background-color: #4CAF50 !important;
         color: white !important;
         font-weight: bold !important;
@@ -226,32 +327,53 @@ st.markdown("""
         margin-top: 10px !important;
     }
     
-    .github-sync-btn:hover {
+    .github-sync-btn:hover, .github-sync-btn1:hover {
         background-color: #45a049 !important;
-    }
-            
-
-    /* GitHub sync button styling */
-    .github-sync-btn1 {
-        width: 150% !important;
-        background-color: #4CAF50 !important;
-        color: white !important;
-        font-weight: bold !important;
-        padding: 0.75rem !important;
-        border-radius: 5px !important;
-        border: none !important;
-        cursor: pointer !important;
-        margin-top: 10px !important;
     }
     
-    .github-sync-btn:hover {
-        background-color: #45a049 !important;
-    }
-
-    /* Override button width only in sidebar */
+    /* Override for sidebar buttons */
     [data-testid="stSidebar"] .stButton button {
         width: 100% !important;
         margin: 5px 0 !important;
+    }
+    
+    /* Responsive column layout */
+    .stHorizontalBlock {
+        flex-wrap: wrap;
+    }
+    
+    /* Ensure tables are scrollable when needed */
+    div:has(> .dataframe) {
+        overflow-x: auto;
+    }
+    
+    /* Admin specific styles */
+    .admin-header {
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
+        color: #89b4fa;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Fix for light theme admin header */
+    [data-theme="light"] .admin-header {
+        color: #3949ab;
+    }
+    
+    /* Confirmation dialog */
+    .confirmation-dialog {
+        background-color: #313244;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 1rem auto;
+        border: 2px solid #f38ba8;
+        max-width: 90%;
+    }
+    
+    /* Fix for light theme confirmation dialog */
+    [data-theme="light"] .confirmation-dialog {
+        background-color: #ffebee;
+        border: 2px solid #ef5350;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -261,16 +383,6 @@ init_excel_files()
 
 # Main header
 st.markdown("<h1 class='main-header'>🏏 SPL Betting Platform - Admin Panel</h1>", unsafe_allow_html=True)
-
-# Check if user is authenticated
-if 'authenticated' not in st.session_state or not st.session_state.authenticated:
-    st.warning("Please log in from the main page to access admin features.")
-    st.markdown("""
-    <div class="home-link">
-        <a href="/" target="_self">Go to Home Page</a>
-    </div>
-    """, unsafe_allow_html=True)
-    st.stop()
 
 # Helper function to format currency
 def format_currency(amount):
@@ -286,7 +398,7 @@ def format_currency(amount):
 def format_date(date_str):
     try:
         date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-        return date_obj.strftime("%d %b %Y")
+        return date_obj.strftime("%A, %d %b %Y")  # %A adds the full weekday name
     except:
         return date_str
 
@@ -320,7 +432,7 @@ st.sidebar.markdown("""
 # Create a container for centered content
 with st.container():
     # Place Bet Section
-    col1, col2, col3 = st.columns([2, 4, 2])
+    col1, col2, col3 = st.columns([1, 4, 1])
     
     with col2:
         st.markdown("""
@@ -328,64 +440,70 @@ with st.container():
         <h2 class='section-header'>💰 Place Bet</h2>
         """, unsafe_allow_html=True)
         
-        # Team selection
-        team = st.selectbox("Select Your Team", team_options)
-        
-        # Get team info
-        selected_team_info = next((t for t in teams if t["team"] == team), None)
-        home_team = ""
-        
-        if selected_team_info:
-            current_balance = selected_team_info.get('balance', 0)
-            st.markdown(f"<div class='team-balance'>Current Balance: {format_currency(current_balance)}</div>", unsafe_allow_html=True)
-            home_team = selected_team_info.get("home_team", "")
-            if home_team:
-                st.markdown(f"<div class='home-team'>Home team: {home_team} (4x payout)</div>", unsafe_allow_html=True)
-        
-        # Match selection
+        # Match selection (moved up)
         # Filter matches that don't have a winner yet
         available_matches = [m for m in matches if m.get("winner") is None]
         
         if not available_matches:
             st.markdown("<div class='warning-box'>No upcoming matches available for betting.</div>", unsafe_allow_html=True)
         else:
-            # Include formatted date in the match options
-            match_options = [f"{m['match_id']}: {m['team1']} vs {m['team2']} ({format_date(m['date'])})" for m in available_matches]
+            # Include venue and formatted date in the match options
+            match_options = [f"{m['match_id']}: {m['team1']} vs {m['team2']} at {m['venue']} ({format_date(m['date'])})" for m in available_matches]
             match_selection = st.selectbox("Select Match", match_options)
             match_id = int(match_selection.split(":")[0])
             
             # Get match details
             selected_match = next((m for m in matches if m["match_id"] == match_id), None)
-            if selected_match:
-                # Display only venue in a nice box
-                st.markdown(f"""
-                <div class='match-details'>
-                    <p><strong>Venue:</strong> {selected_match['venue']}</p>
-                </div>
-                """, unsafe_allow_html=True)
-                
-                # Check if this is a home team match
-                is_home_team_match = False
-                if selected_team_info and home_team and (selected_match["team1"] == home_team or selected_match["team2"] == home_team):
-                    is_home_team_match = True
-                    st.markdown(f"<div class='info-box'>This match involves your home team ({home_team}). You must bet on your home team.</div>", unsafe_allow_html=True)
-                    
-                    # For home team matches, pre-select and disable the dropdown
-                    prediction_options = [home_team]
-                    prediction_index = 0
-                    prediction = st.selectbox(
-                        "Predicted Winner (Home Team - Locked)", 
-                        options=prediction_options,
-                        index=prediction_index,
-                        disabled=True
-                    )
-                else:
-                    # For non-home team matches, allow selection between the two teams
-                    prediction = st.selectbox("Predicted Winner", 
-                                            [selected_match["team1"], selected_match["team2"]])
-            else:
-                prediction = st.text_input("Predicted Winner (Team Name)")
+            # if selected_match:
+            #     # Display only venue in a nice box
+            #     st.markdown(f"""
+            #     <div class='match-details'>
+            #         <p><strong>Selected Match:</strong> <span style='color: #a6e3a1; font-weight: bold;'>{selected_match['team1']} vs {selected_match['team2']}</span></p>
+            #         <p><strong>Venue:</strong> {selected_match['venue']}</p>
+            #     </div>
+            #     """, unsafe_allow_html=True)
+        
+        # Team selection (moved down)
+        team = st.selectbox("Select Your Team", team_options)
+        
+        # Get team info
+        selected_team_info = next((t for t in teams if t["team"] == team), None)
+        if selected_team_info:
+            current_balance = selected_team_info.get('balance', 0)
+            home_team = selected_team_info.get("home_team", "")
             
+            # Display balance and home team in one line
+            st.markdown(f"""
+            <div class='team-balance'>
+                Current Balance: {format_currency(current_balance)} | 
+                <span class='home-team'>Home team: {home_team} (4x payout)</span>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        if available_matches and selected_match:
+            # Check if this is a home team match
+            is_home_team_match = False
+            if selected_team_info and home_team and (selected_match["team1"] == home_team or selected_match["team2"] == home_team):
+                is_home_team_match = True
+                # st.markdown(f"<div class='info-box'>This match involves your home team ({home_team}). You must bet on your home team.</div>", unsafe_allow_html=True)
+                
+                # For home team matches, pre-select and disable the dropdown
+                prediction_options = [home_team]
+                prediction_index = 0
+                prediction = st.selectbox(
+                    "Predicted Winner (Home Team - Locked)", 
+                    options=prediction_options,
+                    index=prediction_index,
+                    disabled=True
+                )
+            else:
+                # For non-home team matches, allow selection between the two teams
+                prediction = st.selectbox("Predicted Winner", 
+                                        [selected_match["team1"], selected_match["team2"]])
+        else:
+            prediction = st.text_input("Predicted Winner (Team Name)")
+        
+        if available_matches:
             # Input amount in lakhs with a number input
             lakh_amount = st.number_input("Bet Amount (in Lakhs)", min_value=5, step=5, value=5)
             amount = lakh_amount * 100000  # Convert lakhs to actual amount
@@ -402,10 +520,12 @@ with st.container():
                 multiplier = 4 if is_home_team_bet else 2
                 potential_winnings = amount * multiplier
                 
+                # Set color based on multiplier
+                multiplier_color = "#a6e3a1" if multiplier == 4 else "#f9e2af"  # Green for 4x, Yellow for 2x
+                
                 st.markdown(f"""
                 <div class='success-box'>
-                    <p>Payout multiplier: <strong>{multiplier}x</strong></p>
-                    <p>Potential winnings: <strong>{format_currency(potential_winnings)}</strong></p>
+                    <p>Potential winnings: <strong style="color: {multiplier_color};">{multiplier}x = {format_currency(potential_winnings)}</strong></p>
                 </div>
                 """, unsafe_allow_html=True)
             
@@ -422,7 +542,7 @@ with st.container():
     
     
     # Update Match Result Section
-    col1, col2, col3 = st.columns([2, 4, 2])
+    col1, col2, col3 = st.columns([1, 4, 1])
     
     with col2:
         # Show confirmation dialog above the section if needed
@@ -489,8 +609,6 @@ with st.container():
                 if selected_match:
                     st.markdown(f"""
                     <div class='match-details'>
-                        <p><strong>Date:</strong> {format_date(selected_match['date'])}</p>
-                        <p><strong>Teams:</strong> {selected_match['team1']} vs {selected_match['team2']}</p>
                         <p><strong>Venue:</strong> {selected_match['venue']}</p>
                     </div>
                     """, unsafe_allow_html=True)

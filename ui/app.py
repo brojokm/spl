@@ -50,7 +50,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for dark theme with better contrast
+# Custom CSS for responsive design with table text color fixes
 st.markdown("""
 <style>
     /* Base theme */
@@ -59,23 +59,24 @@ st.markdown("""
         color: #e0e0e0;
     }
     
-    /* Increase sidebar width */
+    /* Responsive sidebar */
     [data-testid="stSidebar"] {
-        min-width: 530px !important;
-        max-width: 530px !important;
+        min-width: min(30vw, 130px) !important;
+        max-width: min(30vw, 330px) !important;
     }
     
-    /* Headers */
+    /* Headers with responsive font sizes */
     .main-header {
-        font-size: 2rem;
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
         color: #89b4fa;
         text-align: center;
         margin-bottom: 0.8rem;
         padding-bottom: 0.8rem;
         border-bottom: 2px solid #313244;
     }
+    
     .section-header {
-        font-size: 1.5rem;
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
         color: #89b4fa;
         margin-top: 1.5rem;
         padding-bottom: 0.4rem;
@@ -83,40 +84,35 @@ st.markdown("""
     }
     
     /* Boxes */
-    .info-box {
-        margin-bottom: 0.8rem;
-    }
-    .success-box {
-        margin-bottom: 0.8rem;
-    }
-    .warning-box {
-        margin-bottom: 0.8rem;
-    }
-    .match-details {
+    .info-box, .success-box, .warning-box, .match-details {
         margin-bottom: 0.8rem;
     }
     
-    /* Buttons */
+    /* Responsive buttons */
     .stButton button {
         background-color: #128306;
         color: #1e1e2e;
         font-weight: bold;
         border-radius: 5px;
         padding: 0.4rem 0.8rem;
-        width: 20%;
+        width: auto !important;
+        min-width: 120px;
+        max-width: 200px;
         margin: 0 auto;
         display: block;
     }
+    
     .stButton button:hover {
         background-color: #16a108;
     }
     
-    /* Text highlights */
+    /* Text highlights with responsive sizing */
     .team-balance {
-        font-size: 1.3rem;
+        font-size: clamp(1rem, 1.5vw, 1.3rem);
         font-weight: bold;
         color: #89b4fa;
     }
+    
     .home-team {
         font-weight: bold;
         color: #a6e3a1;
@@ -128,31 +124,88 @@ st.markdown("""
         border-color: #45475a;
         color: #e0e0e0;
     }
+    
     div.stNumberInput > div > div > input {
         background-color: #313244;
         border-color: #45475a;
         color: #e0e0e0;
     }
+    
     .stSlider > div > div {
         background-color: #45475a;
     }
+    
     .stSlider > div > div > div > div {
         background-color: #89b4fa;
     }
     
-    /* Tables */
-    .dataframe {
-        font-size: 0.9rem !important;
+    /* TABLE TEXT COLOR FIXES - DARK THEME */
+    /* Force white text for all tables in dark theme */
+    .stApp[data-theme="dark"] table,
+    .stApp[data-theme="dark"] th,
+    .stApp[data-theme="dark"] td,
+    .stApp[data-theme="dark"] tr {
+        color: white !important;
     }
-    .dataframe th {
+    
+    .stApp[data-theme="dark"] .dataframe {
+        color: white !important;
+    }
+    
+    .stApp[data-theme="dark"] .dataframe th {
         background-color: #45475a !important;
-        color: #cdd6f4 !important;
+        color: white !important;
         padding: 0.4rem !important;
     }
-    .dataframe td {
+    
+    .stApp[data-theme="dark"] .dataframe td {
         background-color: #313244 !important;
-        color: #e0e0e0 !important;
+        color: white !important;
         padding: 0.4rem !important;
+    }
+    
+    /* TABLE TEXT COLOR FIXES - LIGHT THEME */
+    /* Force dark text for all tables in light theme */
+    .stApp[data-theme="light"] table,
+    .stApp[data-theme="light"] th,
+    .stApp[data-theme="light"] td,
+    .stApp[data-theme="light"] tr {
+        color: #333333 !important;
+    }
+    
+    .stApp[data-theme="light"] .dataframe {
+        color: #333333 !important;
+    }
+    
+    .stApp[data-theme="light"] .dataframe th {
+        background-color: #c1c8e4 !important;
+        color: #333333 !important;
+        padding: 0.4rem !important;
+    }
+    
+    .stApp[data-theme="light"] .dataframe td {
+        background-color: #e8eaf6 !important;
+        color: #333333 !important;
+        padding: 0.4rem !important;
+    }
+    
+    /* Fix for any text inside table cells */
+    .stApp[data-theme="dark"] td div,
+    .stApp[data-theme="dark"] th div,
+    .stApp[data-theme="dark"] td span,
+    .stApp[data-theme="dark"] th span,
+    .stApp[data-theme="dark"] td p,
+    .stApp[data-theme="dark"] th p {
+        color: white !important;
+    }
+    
+    .stApp[data-theme="light"] td div,
+    .stApp[data-theme="light"] th div,
+    .stApp[data-theme="light"] td span,
+    .stApp[data-theme="light"] th span,
+    .stApp[data-theme="light"] td p,
+    .stApp[data-theme="light"] th p {
+        color: #333333 !important;
     }
     
     /* Make everything more compact */
@@ -160,21 +213,24 @@ st.markdown("""
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    
     div.row-widget.stRadio > div {
         flex-direction: row;
         align-items: center;
     }
+    
     div.row-widget.stRadio > div[role="radiogroup"] > label {
         margin: 0 0.5rem 0 0;
         padding: 0.2rem 0.5rem;
     }
+    
     .stTextInput > div > div > input {
         padding: 0.4rem;
     }
     
     /* Update result container */
     .update-result-container {
-        max-width: 75%;
+        max-width: 90%;
         margin: 0 auto;
     }
     
@@ -183,57 +239,21 @@ st.markdown("""
         color: #a6e3a1 !important;
         font-weight: bold;
     }
+    
     .history-lost {
         color: #f38ba8 !important;
         font-weight: bold;
     }
     
-    /* Auth section */
-    .auth-container {
-        max-width: 400px;
-        margin: 2rem auto;
-        padding: 1.5rem;
-        background-color: #313244;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .auth-header {
-        color: #89b4fa;
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-    .auth-button {
-        width: 100% !important;
-        margin-top: 1rem !important;
-    }
-    .locked-section {
-        background-color: #313244;
-        border-radius: 8px;
-        padding: 1.5rem;
-        margin-top: 1.5rem;
-        border-left: 4px solid #f38ba8;
+    /* Fix for light theme history */
+    [data-theme="light"] .history-won {
+        color: #388e3c !important;
     }
     
-    /* Center content */
-    .centered-content {
-        max-width: 80%;
-        margin: 0 auto;
+    [data-theme="light"] .history-lost {
+        color: #d32f2f !important;
     }
-   /* Make form submit button green */
-    .stButton>button, div[data-testid="stFormSubmitButton"] button {
-        background-color: #128306 !important;
-        color: #1e1e2e !important;
-        font-weight: bold !important;
-        border-radius: 5px !important;
-        border: none !important;
-    }
-    .stButton>button:hover, div[data-testid="stFormSubmitButton"] button:hover {
-        background-color: #16a108 !important;
-    }
-    .stButton>button:active, div[data-testid="stFormSubmitButton"] button:active {
-        background-color: #0f6605 !important;
-    }
-            
+    
     /* Form container */
     .form-container {
         background-color: #313244;
@@ -243,11 +263,17 @@ st.markdown("""
         max-width: 90%;
     }
     
+    /* Fix for light theme form container */
+    [data-theme="light"] .form-container {
+        background-color: #e8eaf6;
+        border: 1px solid #c5cae9;
+    }
+    
     /* Logout button */
     .logout-button button {
         width: 100% !important;
     }
-
+    
     /* Section containers with border */
     .section-box {
         background-color: #313244;
@@ -255,6 +281,29 @@ st.markdown("""
         padding: 1.5rem;
         margin-bottom: 2rem;
         border: 2px solid #45475a;
+    }
+    
+    /* Fix for light theme section box */
+    [data-theme="light"] .section-box {
+        background-color: #e8eaf6;
+        border: 1px solid #c5cae9;
+    }
+    
+    /* Make form submit button green */
+    .stButton>button, div[data-testid="stFormSubmitButton"] button {
+        background-color: #128306 !important;
+        color: #1e1e2e !important;
+        font-weight: bold !important;
+        border-radius: 5px !important;
+        border: none !important;
+    }
+    
+    .stButton>button:hover, div[data-testid="stFormSubmitButton"] button:hover {
+        background-color: #16a108 !important;
+    }
+    
+    .stButton>button:active, div[data-testid="stFormSubmitButton"] button:active {
+        background-color: #0f6605 !important;
     }
     
     /* Admin page link */
@@ -265,13 +314,205 @@ st.markdown("""
         border-radius: 5px;
         text-align: center;
     }
+    
     .admin-link a {
         color: #89b4fa;
         text-decoration: none;
         font-weight: bold;
     }
+    
     .admin-link a:hover {
         text-decoration: underline;
+    }
+    
+    /* Fix for light theme admin link */
+    [data-theme="light"] .admin-link {
+        background-color: #e8eaf6;
+    }
+    
+    [data-theme="light"] .admin-link a {
+        color: #3949ab;
+    }
+    
+    /* Override for sidebar buttons */
+    [data-testid="stSidebar"] .stButton button {
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+    
+    /* Responsive column layout */
+    .stHorizontalBlock {
+        flex-wrap: wrap;
+    }
+    
+    /* Ensure tables are scrollable when needed */
+    div:has(> .dataframe) {
+        overflow-x: auto;
+    }
+    
+    /* Match card styling */
+    .match-card {
+        background-color: #313244;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid #45475a;
+    }
+    
+    /* Fix for light theme match card */
+    [data-theme="light"] .match-card {
+        background-color: #e8eaf6;
+        border: 1px solid #c5cae9;
+    }
+    
+    /* Team name styling */
+    .team-name {
+        font-weight: bold;
+        font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+    }
+    
+    /* Match date styling */
+    .match-date {
+        font-size: clamp(0.8rem, 1vw, 0.9rem);
+        color: #cdd6f4;
+    }
+    
+    /* Fix for light theme match date */
+    [data-theme="light"] .match-date {
+        color: #5c6bc0;
+    }
+    
+    /* Bet amount styling */
+    .bet-amount {
+        font-weight: bold;
+        color: #f9e2af;
+    }
+    
+    /* Fix for light theme bet amount */
+    [data-theme="light"] .bet-amount {
+        color: #ff9800;
+    }
+    
+    /* FORCE WHITE TEXT FOR ALL TABLES REGARDLESS OF THEME */
+    table,
+    th,
+    td,
+    tr,
+    .dataframe,
+    .dataframe th,
+    .dataframe td,
+    .stTable,
+    .stDataFrame {
+        color: white !important;
+    }
+    
+    /* Force white text for all elements inside tables */
+    td div,
+    th div,
+    td span,
+    th span,
+    td p,
+    th p {
+        color: white !important;
+    }
+    
+    /* Target Streamlit's internal table styling */
+    [data-testid="stTable"] {
+        color: white !important;
+    }
+    
+    /* Override any inherited styles */
+    .dataframe * {
+        color: white !important;
+    }
+    
+    /* Ensure all text in tables is visible */
+    .stTable * {
+        color: white !important;
+    }
+    
+    /* Force white text for all tables in dark theme */
+    .stApp[data-theme="dark"] .dataframe,
+    .stApp[data-theme="dark"] .dataframe th,
+    .stApp[data-theme="dark"] .dataframe td,
+    .stApp[data-theme="dark"] .dataframe div,
+    .stApp[data-theme="dark"] .stTable,
+    .stApp[data-theme="dark"] .stDataFrame {
+        color: white !important;
+    }
+    
+    /* Force dark text for all tables in light theme */
+    .stApp[data-theme="light"] .dataframe,
+    .stApp[data-theme="light"] .dataframe th,
+    .stApp[data-theme="light"] .dataframe td,
+    .stApp[data-theme="light"] .dataframe div,
+    .stApp[data-theme="light"] .stTable,
+    .stApp[data-theme="light"] .stDataFrame {
+        color: #333333 !important;
+    }
+    
+    /* Additional specific selectors for Streamlit's table elements */
+    .stApp[data-theme="light"] [data-testid="StyledFullScreenFrame"] div[data-testid="stTable"] {
+        color: #333333 !important;
+    }
+    
+    .stApp[data-theme="dark"] [data-testid="StyledFullScreenFrame"] div[data-testid="stTable"] {
+        color: white !important;
+    }
+    
+    /* Target the text directly */
+    .stApp[data-theme="light"] [data-testid="StyledFullScreenFrame"] div[data-testid="stTable"] p,
+    .stApp[data-theme="light"] [data-testid="StyledFullScreenFrame"] div[data-testid="stTable"] span {
+        color: #333333 !important;
+    }
+    
+    .stApp[data-theme="dark"] [data-testid="StyledFullScreenFrame"] div[data-testid="stTable"] p,
+    .stApp[data-theme="dark"] [data-testid="StyledFullScreenFrame"] div[data-testid="stTable"] span {
+        color: white !important;
+    }
+    
+    /* Ensure all text in tables is visible regardless of theme */
+    .stTable * {
+        color: inherit !important;
+    }
+    
+    /* EXCEPTION FOR WON/LOST TEXT */
+    td[data-text="WON"], 
+    .dataframe td[data-text="WON"],
+    td div:contains("WON"),
+    td span:contains("WON") {
+        color: #00ff00 !important;  /* Bright green */
+        font-weight: bold !important;
+    }
+
+    td[data-text="LOST"], 
+    .dataframe td[data-text="LOST"],
+    td div:contains("LOST"),
+    td span:contains("LOST") {
+        color: #ff0000 !important;  /* Bright red */
+        font-weight: bold !important;
+    }
+
+    td[data-text="PENDING"], 
+    .dataframe td[data-text="PENDING"],
+    td div:contains("PENDING"),
+    td span:contains("PENDING") {
+        color: #ffff00 !important;  /* Bright yellow */
+        font-weight: bold !important;
+    }
+
+    /* Add this after your existing table styling */
+    /* Override for specific result values */
+    .dataframe td:has(> div:contains("WON")) * {
+        color: #00ff00 !important;
+    }
+
+    .dataframe td:has(> div:contains("LOST")) * {
+        color: #ff0000 !important;
+    }
+
+    .dataframe td:has(> div:contains("PENDING")) * {
+        color: #ffff00 !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -314,63 +555,6 @@ def load_data():
 # Main header
 st.markdown("<h1 class='main-header'>🏏 SPL Betting Platform</h1>", unsafe_allow_html=True)
 
-# Authentication section in sidebar
-with st.sidebar:
-    st.markdown("<h2 class='section-header'>Admin Access</h2>", unsafe_allow_html=True)
-    
-    if not st.session_state.authenticated:
-        with st.form("login_form"):
-            st.text_input("Password", type="password", key="password")
-            submit = st.form_submit_button("Login")
-            
-            if submit:
-                # Hash the entered password and compare with stored hash
-                entered_hash = hashlib.sha256(st.session_state.password.encode()).hexdigest()
-                if entered_hash == PASSWORD_HASH:
-                    st.session_state.authenticated = True
-                    
-                    # Create a cookie that expires in 24 hours
-                    cookie_data = {
-                        "expiry": (datetime.now() + timedelta(hours=24)).isoformat()
-                    }
-                    
-                    # Make sure the data directory exists
-                    os.makedirs(os.path.dirname(COOKIE_FILE), exist_ok=True)
-                    
-                    # Save the cookie
-                    try:
-                        with open(COOKIE_FILE, "w") as f:
-                            json.dump(cookie_data, f)
-                    except Exception as e:
-                        st.error(f"Error saving authentication: {str(e)}")
-                    
-                    st.rerun()
-                else:
-                    st.error("Incorrect password")
-    else:
-        st.markdown("<div class='logout-button'>", unsafe_allow_html=True)
-        if st.button("Logout"):
-            st.session_state.authenticated = False
-            
-            # Remove the cookie file on logout
-            if os.path.exists(COOKIE_FILE):
-                try:
-                    os.remove(COOKIE_FILE)
-                except Exception as e:
-                    st.error(f"Error removing cookie: {str(e)}")
-                
-            st.rerun()
-        st.markdown("</div>", unsafe_allow_html=True)
-        
-        st.success("Logged in as Admin")
-        
-        # Add a link to the Admin page
-        st.markdown("""
-        <div class="admin-link">
-            <p>Go to <a href="Admin" target="_self">Admin Page</a> to place bets and update match results</p>
-        </div>
-        """, unsafe_allow_html=True)
-
 # Load data
 teams, matches, bets = load_data()
 
@@ -382,7 +566,7 @@ with st.container():
     # Leaderboard Section (Public)
     
     # Create a centered container for the leaderboard
-    col1, col2, col3 = st.columns([2, 4, 2])
+    col1, col2, col3 = st.columns([1, 4, 1])
     
     with col2:
         st.markdown("""
@@ -408,7 +592,7 @@ with st.container():
         st.markdown("</div>", unsafe_allow_html=True)
     
     # Create a centered container for the history form
-    col1, col2, col3 = st.columns([2, 4, 2])
+    col1, col2, col3 = st.columns([1, 4, 1])
     
     with col2:
         # Team Betting History Section (Public)
@@ -443,7 +627,7 @@ with st.container():
             pending_bets_amount = 0
             st.error(f"Error calculating pending bets: {str(e)}")
         
-        col1, col2, col3 = st.columns([2, 4, 2])
+        col1, col2, col3 = st.columns([1, 4, 1])
         
         with col2:
             if isinstance(history_data, dict) and "error" in history_data:
@@ -531,11 +715,11 @@ with st.container():
                     # Apply custom styling to the Result column
                     def highlight_result(val):
                         if val == "WON":
-                            return 'color: #a6e3a1; font-weight: bold'
+                            return 'color: #00ff00 !important; font-weight: bold'  # Bright green with !important
                         elif val == "LOST":
-                            return 'color: #f38ba8; font-weight: bold'
+                            return 'color: #ff0000 !important; font-weight: bold'  # Bright red with !important
                         elif val == "PENDING":
-                            return 'color: #f9e2af; font-weight: bold'
+                            return 'color: #ffff00 !important; font-weight: bold'  # Bright yellow with !important
                         return ''
                     
                     # Apply custom styling to the Home Team column
