@@ -93,7 +93,7 @@
     "team1": "MI",
     "team2": "KKR",
     "venue": "Wankhede Stadium, Mumbai",
-    "winner": null
+    "winner": "MI"
   },
   {
     "match_id": 13,
@@ -101,7 +101,7 @@
     "team1": "LSG",
     "team2": "PBKS",
     "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
-    "winner": null
+    "winner": "PBKS"
   },
   {
     "match_id": 14,
@@ -109,7 +109,7 @@
     "team1": "RCB",
     "team2": "GT",
     "venue": "M. Chinnaswamy Stadium, Bengaluru",
-    "winner": null
+    "winner": "GT"
   },
   {
     "match_id": 15,
