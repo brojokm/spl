@@ -227,10 +227,18 @@ def batch_update_github_files(files_data):
                 # Prepare content
                 content = json.dumps(data, indent=2)
                 encoded_content = base64.b64encode(content.encode()).decode()
+
+                message = f"Update {file_path}"
+                if "bets" in file_path:
+                    length = len(data)
+                    team_name = data[length-1]["team"]
+                    match_id = data[length-1]["match_id"]
+                    message = f"[Match-Id: {match_id}], [File: {file_path}], [SPL-Team: {team_name}]"
+
                 
                 # Create update payload
                 update_data = {
-                    "message": f"Update {file_path} via batch operation",
+                    "message": message,
                     "content": encoded_content,
                     "branch": branch
                 }

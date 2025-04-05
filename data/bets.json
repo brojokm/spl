@@ -1158,5 +1158,95 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-05T10:29:52.646008"
+  },
+  {
+    "match_id": 17,
+    "team": "MI OwlRisers",
+    "prediction": "CSK",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-05T10:50:03.680279"
+  },
+  {
+    "match_id": 17,
+    "team": "BizTech - Sunrisers",
+    "prediction": "CSK",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-05T10:53:16.579934"
+  },
+  {
+    "match_id": 17,
+    "team": "The Winning Team",
+    "prediction": "DC",
+    "amount": 2500000,
+    "is_home_team": false,
+    "status": "won",
+    "winnings": 5000000,
+    "timestamp": "2025-04-05T10:56:12.404704"
+  },
+  {
+    "match_id": 17,
+    "team": "The Dabbawala Dominators",
+    "prediction": "DC",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "won",
+    "winnings": 10000000,
+    "timestamp": "2025-04-05T10:58:09.558911"
+  },
+  {
+    "match_id": 17,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "CSK",
+    "amount": 2000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-05T18:53:00.762566"
+  },
+  {
+    "match_id": 18,
+    "team": "MI OwlRisers",
+    "prediction": "PBKS",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-05T19:50:47.063512"
+  },
+  {
+    "match_id": 18,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "PBKS",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-05T19:54:27.884752"
+  },
+  {
+    "match_id": 18,
+    "team": "BizTech - Sunrisers",
+    "prediction": "PBKS",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-05T19:55:42.820265"
+  },
+  {
+    "match_id": 18,
+    "team": "The Winning Team",
+    "prediction": "PBKS",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-05T19:56:04.175776"
   }
 ]
