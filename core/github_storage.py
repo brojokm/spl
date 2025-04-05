@@ -228,7 +228,7 @@ def batch_update_github_files(files_data):
                 content = json.dumps(data, indent=2)
                 encoded_content = base64.b64encode(content.encode()).decode()
 
-                message = f"Update {file_path} via batch operation"
+                message = f"Update {file_path}"
                 if "bets" in file_path or "teams" in file_path:
                     team_name = data["team"]
                     message = f"Update {file_path} via batch operation for team - {team_name}"
