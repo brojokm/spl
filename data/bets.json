@@ -1238,5 +1238,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-05T19:55:42.820265"
+  },
+  {
+    "match_id": 18,
+    "team": "The Winning Team",
+    "prediction": "PBKS",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-05T19:56:04.175776"
   }
 ]
