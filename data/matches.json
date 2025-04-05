@@ -117,7 +117,7 @@
     "team1": "KKR",
     "team2": "SRH",
     "venue": "Eden Gardens, Kolkata",
-    "winner": null
+    "winner": "KKR"
   },
   {
     "match_id": 16,
@@ -125,7 +125,7 @@
     "team1": "LSG",
     "team2": "MI",
     "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
-    "winner": null
+    "winner": "LSG"
   },
   {
     "match_id": 17,
