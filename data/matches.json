@@ -146,25 +146,25 @@
   {
     "match_id": 19,
     "date": "2025-04-06",
-    "team1": "KKR",
-    "team2": "LSG",
-    "venue": "Eden Gardens, Kolkata",
-    "winner": null
-  },
-  {
-    "match_id": 20,
-    "date": "2025-04-06",
     "team1": "SRH",
     "team2": "GT",
     "venue": "Rajiv Gandhi International Stadium, Hyderabad",
     "winner": null
   },
   {
-    "match_id": 21,
+    "match_id": 20,
     "date": "2025-04-07",
     "team1": "MI",
     "team2": "RCB",
     "venue": "Wankhede Stadium, Mumbai",
+    "winner": null
+  },
+  {
+    "match_id": 21,
+    "date": "2025-04-08",
+    "team1": "KKR",
+    "team2": "LSG",
+    "venue": "Eden Gardens, Kolkata",
     "winner": null
   },
   {
