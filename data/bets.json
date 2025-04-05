@@ -1048,5 +1048,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-05T10:16:30.956850"
+  },
+  {
+    "match_id": 15,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "KKR",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-05T10:17:03.420572"
   }
 ]
