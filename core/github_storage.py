@@ -231,7 +231,7 @@ def batch_update_github_files(files_data):
                 message = f"Update {file_path}"
                 if "bets" in file_path or "teams" in file_path:
                     team_name = data["team"]
-                    message = f"Update {file_path} via batch operation for team - {team_name}"
+                    message = f"Update {file_path} via batch operation for team -- {team_name}"
 
                 
                 # Create update payload
