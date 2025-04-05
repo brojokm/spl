@@ -1018,5 +1018,15 @@
     "status": "won",
     "winnings": 8000000,
     "timestamp": "2025-04-02T21:25:19.622809"
+  },
+  {
+    "match_id": 15,
+    "team": "MI OwlRisers",
+    "prediction": "SRH",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-05T10:14:11.511773"
   }
 ]
