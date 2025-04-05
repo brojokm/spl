@@ -1165,7 +1165,7 @@
     "prediction": "CSK",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-05T10:50:03.680279"
   },
@@ -1175,7 +1175,7 @@
     "prediction": "CSK",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-05T10:53:16.579934"
   },
@@ -1185,8 +1185,8 @@
     "prediction": "DC",
     "amount": 2500000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 5000000,
     "timestamp": "2025-04-05T10:56:12.404704"
   },
   {
@@ -1195,8 +1195,8 @@
     "prediction": "DC",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-05T10:58:09.558911"
   },
   {
@@ -1205,7 +1205,7 @@
     "prediction": "CSK",
     "amount": 2000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-05T18:53:00.762566"
   }
