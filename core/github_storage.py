@@ -232,7 +232,8 @@ def batch_update_github_files(files_data):
                 if "bets" in file_path:
                     length = len(data)
                     team_name = data[length-1]["team"]
-                    message = f"Update {file_path} via for team -- {team_name}"
+                    match_id = data[length-1]["match_id"]
+                    message = f"[Match-Id: {match_id}], [File: {file_path}], [SPL-Team: {team_name}]"
 
                 
                 # Create update payload
