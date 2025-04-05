@@ -229,7 +229,7 @@ def batch_update_github_files(files_data):
                 encoded_content = base64.b64encode(content.encode()).decode()
 
                 message = f"Update {file_path}"
-                if "bets" in file_path or "teams" in file_path:
+                if "bets" in file_path:
                     length = len(data)
                     team_name = data[length-1]["team"]
                     message = f"Update {file_path} via for team -- {team_name}"
