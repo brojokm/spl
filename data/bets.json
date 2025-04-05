@@ -1158,5 +1158,15 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-05T10:29:52.646008"
+  },
+  {
+    "match_id": 17,
+    "team": "MI OwlRisers",
+    "prediction": "CSK",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-05T10:50:03.680279"
   }
 ]
