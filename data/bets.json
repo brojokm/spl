@@ -1258,5 +1258,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-06T18:12:08.503086"
+  },
+  {
+    "match_id": 19,
+    "team": "The Dabbawala Dominators",
+    "prediction": "SRH",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-06T18:12:26.918081"
   }
 ]
