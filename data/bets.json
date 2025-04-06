@@ -1248,5 +1248,55 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-05T19:56:04.175776"
+  },
+  {
+    "match_id": 19,
+    "team": "BizTech - Sunrisers",
+    "prediction": "SRH",
+    "amount": 20000000,
+    "is_home_team": true,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-06T18:12:08.503086"
+  },
+  {
+    "match_id": 19,
+    "team": "The Dabbawala Dominators",
+    "prediction": "SRH",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-06T18:12:26.918081"
+  },
+  {
+    "match_id": 19,
+    "team": "The Winning Team",
+    "prediction": "SRH",
+    "amount": 4000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-06T18:12:48.615732"
+  },
+  {
+    "match_id": 19,
+    "team": "BizTech - Kings",
+    "prediction": "SRH",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-06T18:13:03.149747"
+  },
+  {
+    "match_id": 19,
+    "team": "MI OwlRisers",
+    "prediction": "SRH",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "lost",
+    "winnings": 0,
+    "timestamp": "2025-04-06T18:13:13.525172"
   }
 ]
