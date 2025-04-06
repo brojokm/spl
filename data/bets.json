@@ -1268,5 +1268,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-06T18:12:26.918081"
+  },
+  {
+    "match_id": 19,
+    "team": "The Winning Team",
+    "prediction": "SRH",
+    "amount": 4000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-06T18:12:48.615732"
   }
 ]
