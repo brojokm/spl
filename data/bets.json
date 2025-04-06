@@ -1255,7 +1255,7 @@
     "prediction": "SRH",
     "amount": 20000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-06T18:12:08.503086"
   },
@@ -1265,7 +1265,7 @@
     "prediction": "SRH",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-06T18:12:26.918081"
   },
@@ -1275,7 +1275,7 @@
     "prediction": "SRH",
     "amount": 4000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-06T18:12:48.615732"
   },
@@ -1285,7 +1285,7 @@
     "prediction": "SRH",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-06T18:13:03.149747"
   },
@@ -1295,7 +1295,7 @@
     "prediction": "SRH",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-06T18:13:13.525172"
   }
