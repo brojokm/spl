@@ -1305,8 +1305,8 @@
     "prediction": "RCB",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 20000000,
     "timestamp": "2025-04-08T12:32:08.151696"
   },
   {
@@ -1315,7 +1315,7 @@
     "prediction": "MI",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-08T12:32:30.464746"
   },
@@ -1325,7 +1325,7 @@
     "prediction": "MI",
     "amount": 20000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-08T12:32:59.587744"
   },
@@ -1335,7 +1335,7 @@
     "prediction": "MI",
     "amount": 40000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-08T12:33:41.682148"
   },
@@ -1345,8 +1345,8 @@
     "prediction": "RCB",
     "amount": 3000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 12000000,
     "timestamp": "2025-04-08T12:34:04.483593"
   },
   {
@@ -1355,8 +1355,8 @@
     "prediction": "RCB",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-04-08T12:34:29.371255"
   }
 ]
