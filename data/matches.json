@@ -149,7 +149,7 @@
     "team1": "SRH",
     "team2": "GT",
     "venue": "Rajiv Gandhi International Stadium, Hyderabad",
-    "winner": null
+    "winner": "GT"
   },
   {
     "match_id": 20,
@@ -157,6 +157,14 @@
     "team1": "MI",
     "team2": "RCB",
     "venue": "Wankhede Stadium, Mumbai",
+    "winner": "RCB"
+  },
+  {
+    "match_id": 21,
+    "date": "2025-04-08",
+    "team1": "KKR",
+    "team2": "LSG",
+    "venue": "Eden Gardens, Kolkata",
     "winner": null
   },
   {

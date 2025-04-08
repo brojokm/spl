@@ -534,7 +534,7 @@ def format_currency(amount):
 def format_date(date_str):
     try:
         date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-        return date_obj.strftime("%d %b %Y")
+        return date_obj.strftime("%d %b")
     except:
         return date_str
 
@@ -664,10 +664,10 @@ with st.container():
                                 "Match": f"{match['team1']} vs {match['team2']}",
                                 "Date": format_date(match.get("date", "")) or "N/A",
                                 "Bet On": bet.get("prediction", "N/A"),
-                                "Home Team": home_team_display,
+                                # "Home Team": home_team_display,
                                 "Amount": format_currency(bet["amount"]),
                                 "Result": "PENDING",
-                                "Winnings": "N/A",
+                                # "Winnings": "N/A",
                                 "Closing Balance": format_currency(running_balance)
                             })
                     except Exception as e:
@@ -701,10 +701,10 @@ with st.container():
                         "Match": entry.get("match", "N/A"),
                         "Date": format_date(entry.get("date", "")) or "N/A",
                         "Bet On": entry.get("prediction", "N/A"),
-                        "Home Team": home_team_display,
+                        # "Home Team": home_team_display,
                         "Amount": format_currency(entry.get("bet_amount", 0)),
                         "Result": result_status.upper(),
-                        "Winnings": format_currency(entry.get("winnings", 0)) if entry.get("result") == "won" else "N/A",
+                        # "Winnings": format_currency(entry.get("winnings", 0)) if entry.get("result") == "won" else "N/A",
                         "Closing Balance": format_currency(closing_balance)
                     })
                 
@@ -728,9 +728,14 @@ with st.container():
                             return 'color: #a6e3a1; font-weight: bold'
                         return ''
                     
+                    def highlight_Bet_On(val):
+                        if val == home_team:
+                            return 'color: #00ff00 !important; font-weight: bold'
+                        return ''
                     # Apply the styling
-                    styled_history = history_df.style.applymap(highlight_result, subset=['Result'])
-                    styled_history = styled_history.applymap(highlight_home_team, subset=['Home Team'])
+                    styled_history = history_df.style.map(highlight_result, subset=['Result'])
+                    # styled_history = styled_history.map(highlight_home_team, subset=['Home Team'])
+                    styled_history = styled_history.map(highlight_Bet_On, subset=['Bet On'])
                     
                     # Display pending bets information
                     if pending_bets_amount > 0:
