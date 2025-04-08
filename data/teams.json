@@ -7,7 +7,7 @@
   {
     "team": "BizTech - Sunrisers",
     "home_team": "SRH",
-    "balance": 20000000
+    "balance": 40000000
   },
   {
     "team": "BizTech - Kings",
@@ -17,7 +17,7 @@
   {
     "team": "BizTech - Royals",
     "home_team": "RCB",
-    "balance": 132500000
+    "balance": 172500000
   },
   {
     "team": "MI OwlRisers",
@@ -27,7 +27,7 @@
   {
     "team": "Royal Troubleshooters Bangalore",
     "home_team": "RCB",
-    "balance": 95500000
+    "balance": 107500000
   },
   {
     "team": "Chennai Debug Kings",
