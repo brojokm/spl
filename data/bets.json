@@ -1328,5 +1328,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-08T12:32:59.587744"
+  },
+  {
+    "match_id": 20,
+    "team": "MI OwlRisers",
+    "prediction": "MI",
+    "amount": 40000000,
+    "is_home_team": true,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-08T12:33:41.682148"
   }
 ]
