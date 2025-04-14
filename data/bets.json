@@ -1528,5 +1528,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-14T09:53:24.667211"
+  },
+  {
+    "match_id": 23,
+    "team": "The Winning Team",
+    "prediction": "RR",
+    "amount": 4000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T09:53:46.698463"
   }
 ]
