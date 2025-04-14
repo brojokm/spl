@@ -1875,7 +1875,7 @@
     "prediction": "DC",
     "amount": 2000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T10:23:29.387201"
   },
@@ -1885,8 +1885,8 @@
     "prediction": "MI",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-04-14T10:23:53.487444"
   },
   {
@@ -1895,8 +1895,8 @@
     "prediction": "MI",
     "amount": 5000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 20000000,
     "timestamp": "2025-04-14T10:24:13.234423"
   },
   {
@@ -1905,7 +1905,7 @@
     "prediction": "DC",
     "amount": 2500000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T10:24:31.055382"
   }
