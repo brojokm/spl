@@ -1685,7 +1685,7 @@
     "prediction": "GT",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T10:10:00.190611"
   },
@@ -1695,8 +1695,8 @@
     "prediction": "LSG",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-14T10:10:40.698440"
   },
   {
@@ -1705,7 +1705,7 @@
     "prediction": "GT",
     "amount": 4000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T10:11:06.915298"
   },
@@ -1715,7 +1715,7 @@
     "prediction": "GT",
     "amount": 20000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T10:11:35.408288"
   },
@@ -1725,7 +1725,7 @@
     "prediction": "GT",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T10:11:57.010383"
   },
@@ -1735,8 +1735,8 @@
     "prediction": "LSG",
     "amount": 4000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 8000000,
     "timestamp": "2025-04-14T10:12:26.609780"
   },
   {
@@ -1745,7 +1745,7 @@
     "prediction": "GT",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T10:12:46.497737"
   }
