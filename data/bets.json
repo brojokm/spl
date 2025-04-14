@@ -1548,5 +1548,15 @@
     "status": "won",
     "winnings": 10000000,
     "timestamp": "2025-04-14T09:54:09.616520"
+  },
+  {
+    "match_id": 24,
+    "team": "MI OwlRisers",
+    "prediction": "RCB",
+    "amount": 40000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T09:58:00.049565"
   }
 ]
