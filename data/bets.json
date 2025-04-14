@@ -1668,5 +1668,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-14T10:05:55.509731"
+  },
+  {
+    "match_id": 25,
+    "team": "BizTech - Sunrisers",
+    "prediction": "CSK",
+    "amount": 2500000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T10:06:16.425666"
   }
 ]
