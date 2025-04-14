@@ -1688,5 +1688,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-14T10:10:00.190611"
+  },
+  {
+    "match_id": 26,
+    "team": "BizTech - Royals",
+    "prediction": "LSG",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T10:10:40.698440"
   }
 ]
