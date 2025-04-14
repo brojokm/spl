@@ -1425,8 +1425,8 @@
     "prediction": "PBKS",
     "amount": 30000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 60000000,
     "timestamp": "2025-04-14T09:37:31.365142"
   },
   {
@@ -1435,8 +1435,8 @@
     "prediction": "PBKS",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-14T09:38:16.870788"
   },
   {
@@ -1445,8 +1445,8 @@
     "prediction": "PBKS",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-14T09:38:38.412986"
   },
   {
@@ -1455,8 +1455,8 @@
     "prediction": "PBKS",
     "amount": 30000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 60000000,
     "timestamp": "2025-04-14T09:39:01.426898"
   },
   {
@@ -1465,7 +1465,7 @@
     "prediction": "CSK",
     "amount": 2500000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-14T09:46:22.297138"
   }
