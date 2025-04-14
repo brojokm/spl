@@ -1628,5 +1628,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-14T10:04:26.460820"
+  },
+  {
+    "match_id": 25,
+    "team": "The Dabbawala Dominators",
+    "prediction": "CSK",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T10:04:47.742709"
   }
 ]
