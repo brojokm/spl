@@ -1588,5 +1588,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-14T09:59:13.485931"
+  },
+  {
+    "match_id": 24,
+    "team": "BizTech - Sunrisers",
+    "prediction": "RCB",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T09:59:42.859979"
   }
 ]
