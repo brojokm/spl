@@ -1508,5 +1508,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-14T09:52:28.770576"
+  },
+  {
+    "match_id": 23,
+    "team": "BizTech - Kings",
+    "prediction": "GT",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T09:52:57.163876"
   }
 ]
