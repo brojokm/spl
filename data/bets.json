@@ -1758,5 +1758,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-14T10:15:05.657127"
+  },
+  {
+    "match_id": 27,
+    "team": "BizTech - Royals",
+    "prediction": "SRH",
+    "amount": 2000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-14T10:15:35.001607"
   }
 ]
