@@ -7,7 +7,7 @@
   {
     "team": "BizTech - Sunrisers",
     "home_team": "SRH",
-    "balance": 17500000
+    "balance": 57500000
   },
   {
     "team": "BizTech - Kings",
@@ -17,7 +17,7 @@
   {
     "team": "BizTech - Royals",
     "home_team": "RCB",
-    "balance": 173500000
+    "balance": 177500000
   },
   {
     "team": "MI OwlRisers",
@@ -37,6 +37,6 @@
   {
     "team": "The Winning Team",
     "home_team": "MI",
-    "balance": 137000000
+    "balance": 145000000
   }
 ]
