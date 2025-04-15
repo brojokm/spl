@@ -12,7 +12,7 @@
   {
     "team": "BizTech - Kings",
     "home_team": "CSK",
-    "balance": 68000000
+    "balance": 88000000
   },
   {
     "team": "BizTech - Royals",
@@ -27,16 +27,16 @@
   {
     "team": "Royal Troubleshooters Bangalore",
     "home_team": "RCB",
-    "balance": 144000000
+    "balance": 152000000
   },
   {
     "team": "Chennai Debug Kings",
     "home_team": "CSK",
-    "balance": 83500000
+    "balance": 103500000
   },
   {
     "team": "The Winning Team",
     "home_team": "MI",
-    "balance": 152000000
+    "balance": 160000000
   }
 ]
