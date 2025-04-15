@@ -1948,5 +1948,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-15T09:32:52.532460"
+  },
+  {
+    "match_id": 30,
+    "team": "The Winning Team",
+    "prediction": "CSK",
+    "amount": 4000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-15T09:33:17.541714"
   }
 ]
