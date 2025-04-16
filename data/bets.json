@@ -1975,8 +1975,8 @@
     "prediction": "PBKS",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-16T15:08:53.889812"
   },
   {
@@ -1985,8 +1985,8 @@
     "prediction": "PBKS",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-16T15:09:17.473070"
   },
   {
@@ -1995,8 +1995,8 @@
     "prediction": "PBKS",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-16T15:09:41.025230"
   },
   {
@@ -2005,8 +2005,8 @@
     "prediction": "PBKS",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-16T15:10:09.205629"
   },
   {
@@ -2015,8 +2015,8 @@
     "prediction": "PBKS",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-16T15:11:52.216095"
   }
 ]
