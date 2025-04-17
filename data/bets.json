@@ -2025,8 +2025,8 @@
     "prediction": "DC",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-17T09:16:33.964382"
   },
   {
@@ -2035,8 +2035,8 @@
     "prediction": "DC",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-17T09:17:01.404240"
   },
   {
@@ -2045,8 +2045,8 @@
     "prediction": "DC",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-17T09:17:20.234479"
   },
   {
@@ -2055,8 +2055,8 @@
     "prediction": "DC",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-17T09:17:36.019793"
   },
   {
@@ -2065,8 +2065,8 @@
     "prediction": "DC",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-17T09:17:54.881878"
   }
 ]
