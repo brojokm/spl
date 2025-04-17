@@ -237,7 +237,7 @@
     "team1": "LSG",
     "team2": "CSK",
     "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
-    "winner": null
+    "winner": "CSK"
   },
   {
     "match_id": 31,
@@ -245,7 +245,7 @@
     "team1": "PBKS",
     "team2": "KKR",
     "venue": "Inderjit Singh Bindra Stadium, Mohali",
-    "winner": null
+    "winner": "PBKS"
   },
   {
     "match_id": 32,
@@ -253,7 +253,7 @@
     "team1": "DC",
     "team2": "RR",
     "venue": "Arun Jaitley Stadium, Delhi",
-    "winner": null
+    "winner": "DC"
   },
   {
     "match_id": 33,
