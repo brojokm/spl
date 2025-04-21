@@ -2138,5 +2138,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-21T13:31:28.346416"
+  },
+  {
+    "match_id": 34,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "RCB",
+    "amount": 10000000,
+    "is_home_team": true,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-21T13:31:46.907762"
   }
 ]
