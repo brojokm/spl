@@ -2075,8 +2075,8 @@
     "prediction": "MI",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-21T13:27:41.350368"
   },
   {
@@ -2085,8 +2085,8 @@
     "prediction": "MI",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-21T13:28:02.894065"
   },
   {
@@ -2095,8 +2095,8 @@
     "prediction": "MI",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-04-21T13:28:27.773671"
   },
   {
@@ -2105,8 +2105,8 @@
     "prediction": "MI",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-21T13:28:47.689601"
   },
   {
@@ -2115,8 +2115,8 @@
     "prediction": "MI",
     "amount": 11000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 44000000,
     "timestamp": "2025-04-21T13:29:36.042206"
   },
   {
@@ -2125,7 +2125,7 @@
     "prediction": "SRH",
     "amount": 40000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:30:04.989469"
   }
