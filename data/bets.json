@@ -2158,5 +2158,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-21T13:32:09.426689"
+  },
+  {
+    "match_id": 34,
+    "team": "BizTech - Kings",
+    "prediction": "PBKS",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-21T13:32:35.231443"
   }
 ]
