@@ -2128,5 +2128,15 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:30:04.989469"
+  },
+  {
+    "match_id": 34,
+    "team": "BizTech - Royals",
+    "prediction": "RCB",
+    "amount": 10000000,
+    "is_home_team": true,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-21T13:31:28.346416"
   }
 ]
