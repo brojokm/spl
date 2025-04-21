@@ -2135,7 +2135,7 @@
     "prediction": "RCB",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:31:28.346416"
   },
@@ -2145,7 +2145,7 @@
     "prediction": "RCB",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:31:46.907762"
   },
@@ -2155,7 +2155,7 @@
     "prediction": "RCB",
     "amount": 30000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:32:09.426689"
   },
@@ -2165,8 +2165,8 @@
     "prediction": "PBKS",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-21T13:32:35.231443"
   },
   {
@@ -2175,7 +2175,7 @@
     "prediction": "RCB",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:32:54.457176"
   }
