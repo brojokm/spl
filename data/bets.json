@@ -2185,7 +2185,7 @@
     "prediction": "DC",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:34:38.027122"
   },
@@ -2195,7 +2195,7 @@
     "prediction": "DC",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-21T13:35:01.839807"
   },
@@ -2205,8 +2205,8 @@
     "prediction": "GT",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-21T13:35:25.607200"
   },
   {
@@ -2215,8 +2215,8 @@
     "prediction": "GT",
     "amount": 2500000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 5000000,
     "timestamp": "2025-04-21T13:35:45.846030"
   },
   {
@@ -2225,8 +2225,8 @@
     "prediction": "GT",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-21T13:36:04.478373"
   }
 ]
