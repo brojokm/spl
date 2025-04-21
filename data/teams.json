@@ -7,12 +7,12 @@
   {
     "team": "BizTech - Sunrisers",
     "home_team": "SRH",
-    "balance": 18000000
+    "balance": 28000000
   },
   {
     "team": "BizTech - Kings",
     "home_team": "CSK",
-    "balance": 101000000
+    "balance": 111000000
   },
   {
     "team": "BizTech - Royals",
@@ -37,6 +37,6 @@
   {
     "team": "The Winning Team",
     "home_team": "MI",
-    "balance": 195500000
+    "balance": 200500000
   }
 ]
