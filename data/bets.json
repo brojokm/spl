@@ -2358,5 +2358,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-21T13:44:06.407236"
+  },
+  {
+    "match_id": 38,
+    "team": "BizTech - Sunrisers",
+    "prediction": "MI",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-21T13:44:28.293123"
   }
 ]
