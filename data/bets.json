@@ -2375,8 +2375,8 @@
     "prediction": "GT",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 6000000,
     "timestamp": "2025-04-27T05:58:08.119347"
   },
   {
@@ -2385,7 +2385,7 @@
     "prediction": "KKR",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T05:58:49.024631"
   },
@@ -2395,8 +2395,8 @@
     "prediction": "GT",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-27T05:59:09.341080"
   },
   {
@@ -2405,7 +2405,7 @@
     "prediction": "KKR",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T05:59:31.706620"
   },
@@ -2415,7 +2415,7 @@
     "prediction": "KKR",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T05:59:50.941454"
   },
@@ -2425,7 +2425,7 @@
     "prediction": "KKR",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T06:01:11.574599"
   },
@@ -2435,7 +2435,7 @@
     "prediction": "KKR",
     "amount": 3000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T06:01:36.870587"
   }
