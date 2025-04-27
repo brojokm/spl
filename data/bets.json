@@ -2578,5 +2578,15 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T06:09:14.325850"
+  },
+  {
+    "match_id": 42,
+    "team": "The Winning Team",
+    "prediction": "RCB",
+    "amount": 20000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-27T06:11:32.476865"
   }
 ]
