@@ -2418,5 +2418,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-27T05:59:50.941454"
+  },
+  {
+    "match_id": 39,
+    "team": "The Winning Team",
+    "prediction": "KKR",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-27T06:01:11.574599"
   }
 ]
