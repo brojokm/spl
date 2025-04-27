@@ -2548,5 +2548,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-27T06:08:01.626486"
+  },
+  {
+    "match_id": 41,
+    "team": "Chennai Debug Kings",
+    "prediction": "SRH",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-27T06:08:21.057695"
   }
 ]
