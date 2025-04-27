@@ -2598,5 +2598,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-27T06:11:54.492732"
+  },
+  {
+    "match_id": 42,
+    "team": "The Dabbawala Dominators",
+    "prediction": "RCB",
+    "amount": 20000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-27T06:12:11.390522"
   }
 ]
