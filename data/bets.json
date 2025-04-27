@@ -2478,5 +2478,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-27T06:04:42.917594"
+  },
+  {
+    "match_id": 40,
+    "team": "The Dabbawala Dominators",
+    "prediction": "DC",
+    "amount": 20000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-27T06:05:00.537752"
   }
 ]
