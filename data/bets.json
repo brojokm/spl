@@ -2428,5 +2428,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-04-27T06:01:11.574599"
+  },
+  {
+    "match_id": 39,
+    "team": "BizTech - Sunrisers",
+    "prediction": "KKR",
+    "amount": 3000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-27T06:01:36.870587"
   }
 ]
