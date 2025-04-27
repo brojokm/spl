@@ -2635,7 +2635,7 @@
     "prediction": "CSK",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T06:16:36.996436"
   },
@@ -2645,7 +2645,7 @@
     "prediction": "CSK",
     "amount": 20000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-04-27T06:18:00.752495"
   },
@@ -2655,8 +2655,8 @@
     "prediction": "SRH",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-04-27T06:18:43.981687"
   }
 ]
