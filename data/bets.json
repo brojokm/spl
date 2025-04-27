@@ -2628,5 +2628,15 @@
     "status": "won",
     "winnings": 120000000,
     "timestamp": "2025-04-27T06:14:32.689748"
+  },
+  {
+    "match_id": 43,
+    "team": "BizTech - Royals",
+    "prediction": "CSK",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-04-27T06:16:36.996436"
   }
 ]
