@@ -261,7 +261,7 @@
     "team1": "MI",
     "team2": "SRH",
     "venue": "Wankhede Stadium, Mumbai",
-    "winner": null
+    "winner": "MI"
   },
   {
     "match_id": 34,
@@ -269,7 +269,7 @@
     "team1": "RCB",
     "team2": "PBKS",
     "venue": "M. Chinnaswamy Stadium, Bengaluru",
-    "winner": null
+    "winner": "PBKS"
   },
   {
     "match_id": 35,
@@ -277,7 +277,7 @@
     "team1": "GT",
     "team2": "DC",
     "venue": "Narendra Modi Stadium, Ahmedabad",
-    "winner": null
+    "winner": "GT"
   },
   {
     "match_id": 36,
@@ -285,7 +285,7 @@
     "team1": "RR",
     "team2": "LSG",
     "venue": "Sawai Mansingh Stadium, Jaipur",
-    "winner": null
+    "winner": "LSG"
   },
   {
     "match_id": 37,
@@ -293,7 +293,7 @@
     "team1": "PBKS",
     "team2": "RCB",
     "venue": "Inderjit Singh Bindra Stadium, Mohali",
-    "winner": null
+    "winner": "RCB"
   },
   {
     "match_id": 38,
@@ -301,7 +301,7 @@
     "team1": "MI",
     "team2": "CSK",
     "venue": "Wankhede Stadium, Mumbai",
-    "winner": null
+    "winner": "MI"
   },
   {
     "match_id": 39,
@@ -309,7 +309,7 @@
     "team1": "KKR",
     "team2": "GT",
     "venue": "Eden Gardens, Kolkata",
-    "winner": null
+    "winner": "GT"
   },
   {
     "match_id": 40,
@@ -317,7 +317,7 @@
     "team1": "LSG",
     "team2": "DC",
     "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
-    "winner": null
+    "winner": "DC"
   },
   {
     "match_id": 41,
@@ -325,7 +325,7 @@
     "team1": "SRH",
     "team2": "MI",
     "venue": "Rajiv Gandhi International Stadium, Hyderabad",
-    "winner": null
+    "winner": "MI"
   },
   {
     "match_id": 42,
@@ -333,7 +333,7 @@
     "team1": "RCB",
     "team2": "RR",
     "venue": "M. Chinnaswamy Stadium, Bengaluru",
-    "winner": null
+    "winner": "RCB"
   },
   {
     "match_id": 43,
@@ -341,15 +341,7 @@
     "team1": "CSK",
     "team2": "SRH",
     "venue": "MA Chidambaram Stadium, Chennai",
-    "winner": null
-  },
-  {
-    "match_id": 44,
-    "date": "2025-04-26",
-    "team1": "KKR",
-    "team2": "PBKS",
-    "venue": "Eden Gardens, Kolkata",
-    "winner": null
+    "winner": "SRH"
   },
   {
     "match_id": 45,

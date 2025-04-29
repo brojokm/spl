@@ -2,22 +2,22 @@
   {
     "team": "The Dabbawala Dominators",
     "home_team": "MI",
-    "balance": 149000000
+    "balance": 304000000
   },
   {
     "team": "BizTech - Sunrisers",
     "home_team": "SRH",
-    "balance": 63000000
+    "balance": 10000000
   },
   {
     "team": "BizTech - Kings",
     "home_team": "CSK",
-    "balance": 96000000
+    "balance": 136000000
   },
   {
     "team": "BizTech - Royals",
     "home_team": "RCB",
-    "balance": 243500000
+    "balance": 389500000
   },
   {
     "team": "MI OwlRisers",
@@ -27,16 +27,16 @@
   {
     "team": "Royal Troubleshooters Bangalore",
     "home_team": "RCB",
-    "balance": 157000000
+    "balance": 277000000
   },
   {
     "team": "Chennai Debug Kings",
     "home_team": "CSK",
-    "balance": 103500000
+    "balance": 98500000
   },
   {
     "team": "The Winning Team",
     "home_team": "MI",
-    "balance": 170000000
+    "balance": 362000000
   }
 ]
