@@ -2975,8 +2975,8 @@
     "prediction": "PBKS",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-05-06T07:05:13.453125"
   },
   {
@@ -2985,8 +2985,8 @@
     "prediction": "PBKS",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-05-06T07:05:28.334339"
   },
   {
@@ -2995,8 +2995,8 @@
     "prediction": "PBKS",
     "amount": 20000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-05-06T07:05:44.350332"
   },
   {
@@ -3005,8 +3005,8 @@
     "prediction": "PBKS",
     "amount": 12000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 24000000,
     "timestamp": "2025-05-06T07:06:00.517971"
   }
 ]
