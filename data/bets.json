@@ -2808,5 +2808,15 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-06T06:54:02.064501"
+  },
+  {
+    "match_id": 48,
+    "team": "BizTech - Kings",
+    "prediction": "DC",
+    "amount": 50000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T06:56:18.848141"
   }
 ]
