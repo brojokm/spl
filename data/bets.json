@@ -2778,5 +2778,15 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-06T06:52:14.199614"
+  },
+  {
+    "match_id": 47,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "GT",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T06:53:27.231451"
   }
 ]
