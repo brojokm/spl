@@ -2698,5 +2698,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-06T06:40:47.377736"
+  },
+  {
+    "match_id": 45,
+    "team": "The Winning Team",
+    "prediction": "MI",
+    "amount": 31000000,
+    "is_home_team": true,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T06:41:10.663728"
   }
 ]
