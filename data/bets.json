@@ -2838,5 +2838,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-06T06:57:34.296786"
+  },
+  {
+    "match_id": 49,
+    "team": "The Dabbawala Dominators",
+    "prediction": "PBKS",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T06:57:47.462211"
   }
 ]
