@@ -2828,5 +2828,15 @@
     "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-06T06:56:42.015771"
+  },
+  {
+    "match_id": 49,
+    "team": "Royal Troubleshooters Bangalore",
+    "prediction": "PBKS",
+    "amount": 10000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T06:57:34.296786"
   }
 ]
