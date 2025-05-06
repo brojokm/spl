@@ -2965,8 +2965,8 @@
     "prediction": "KKR",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 20000000,
     "timestamp": "2025-05-06T07:03:58.285350"
   }
 ]
