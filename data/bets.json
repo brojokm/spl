@@ -2665,7 +2665,7 @@
     "prediction": "LSG",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-06T06:40:00.773904"
   },
@@ -2675,8 +2675,8 @@
     "prediction": "MI",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 20000000,
     "timestamp": "2025-05-06T06:40:15.927280"
   },
   {
@@ -2685,8 +2685,8 @@
     "prediction": "MI",
     "amount": 30000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 120000000,
     "timestamp": "2025-05-06T06:40:31.561144"
   },
   {
@@ -2695,8 +2695,8 @@
     "prediction": "MI",
     "amount": 20000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-05-06T06:40:47.377736"
   },
   {
@@ -2705,8 +2705,8 @@
     "prediction": "MI",
     "amount": 31000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 124000000,
     "timestamp": "2025-05-06T06:41:10.663728"
   },
   {
@@ -2715,7 +2715,7 @@
     "prediction": "LSG",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-06T06:41:41.077327"
   }
