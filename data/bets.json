@@ -2865,8 +2865,8 @@
     "prediction": "MI",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-05-06T06:59:13.512946"
   }
 ]
