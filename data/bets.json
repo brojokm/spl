@@ -2968,5 +2968,15 @@
     "status": "won",
     "winnings": 20000000,
     "timestamp": "2025-05-06T07:03:58.285350"
+  },
+  {
+    "match_id": 54,
+    "team": "BizTech - Royals",
+    "prediction": "PBKS",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T07:05:13.453125"
   }
 ]
