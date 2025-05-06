@@ -2,7 +2,7 @@
   {
     "team": "The Dabbawala Dominators",
     "home_team": "MI",
-    "balance": 444000000
+    "balance": 504000000
   },
   {
     "team": "BizTech - Sunrisers",
@@ -17,7 +17,7 @@
   {
     "team": "BizTech - Royals",
     "home_team": "RCB",
-    "balance": 459500000
+    "balance": 539500000
   },
   {
     "team": "MI OwlRisers",
@@ -27,7 +27,7 @@
   {
     "team": "Royal Troubleshooters Bangalore",
     "home_team": "RCB",
-    "balance": 367000000
+    "balance": 567000000
   },
   {
     "team": "Chennai Debug Kings",
@@ -37,6 +37,6 @@
   {
     "team": "The Winning Team",
     "home_team": "MI",
-    "balance": 476500000
+    "balance": 532500000
   }
 ]
