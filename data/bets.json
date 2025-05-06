@@ -2708,5 +2708,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-06T06:41:10.663728"
+  },
+  {
+    "match_id": 45,
+    "team": "BizTech - Sunrisers",
+    "prediction": "LSG",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T06:41:41.077327"
   }
 ]
