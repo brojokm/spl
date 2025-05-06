@@ -2948,5 +2948,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-06T07:02:45.246393"
+  },
+  {
+    "match_id": 52,
+    "team": "The Winning Team",
+    "prediction": "RCB",
+    "amount": 28000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-06T07:03:03.446483"
   }
 ]
