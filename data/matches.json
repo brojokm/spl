@@ -424,14 +424,6 @@
     "winner": "PBKS"
   },
   {
-    "match_id": 55,
-    "date": "2025-05-05",
-    "team1": "SRH",
-    "team2": "DC",
-    "venue": "Rajiv Gandhi International Stadium, Hyderabad",
-    "winner": null
-  },
-  {
     "match_id": 56,
     "date": "2025-05-06",
     "team1": "MI",
@@ -448,128 +440,120 @@
     "winner": null
   },
   {
-    "match_id": 58,
-    "date": "2025-05-08",
-    "team1": "PBKS",
-    "team2": "DC",
-    "venue": "Dharamsala",
-    "winner": null
-  },
-  {
     "match_id": 59,
-    "date": "2025-05-09",
-    "team1": "LSG",
-    "team2": "RCB",
-    "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
-    "winner": null
-  },
-  {
-    "match_id": 60,
-    "date": "2025-05-10",
-    "team1": "SRH",
-    "team2": "KKR",
-    "venue": "Rajiv Gandhi International Stadium, Hyderabad",
-    "winner": null
-  },
-  {
-    "match_id": 61,
-    "date": "2025-05-11",
-    "team1": "PBKS",
-    "team2": "MI",
-    "venue": "Dharamsala",
-    "winner": null
-  },
-  {
-    "match_id": 62,
-    "date": "2025-05-11",
-    "team1": "DC",
-    "team2": "GT",
-    "venue": "Arun Jaitley Stadium, Delhi",
-    "winner": null
-  },
-  {
-    "match_id": 63,
-    "date": "2025-05-12",
-    "team1": "CSK",
-    "team2": "RR",
-    "venue": "MA Chidambaram Stadium, Chennai",
-    "winner": null
-  },
-  {
-    "match_id": 64,
-    "date": "2025-05-13",
-    "team1": "RCB",
-    "team2": "SRH",
-    "venue": "M. Chinnaswamy Stadium, Bengaluru",
-    "winner": null
-  },
-  {
-    "match_id": 65,
-    "date": "2025-05-14",
-    "team1": "GT",
-    "team2": "LSG",
-    "venue": "Narendra Modi Stadium, Ahmedabad",
-    "winner": null
-  },
-  {
-    "match_id": 66,
-    "date": "2025-05-15",
-    "team1": "MI",
-    "team2": "DC",
-    "venue": "Wankhede Stadium, Mumbai",
-    "winner": null
-  },
-  {
-    "match_id": 67,
-    "date": "2025-05-16",
+    "date": "2025-05-18",
     "team1": "RR",
     "team2": "PBKS",
     "venue": "Sawai Mansingh Stadium, Jaipur",
     "winner": null
   },
   {
-    "match_id": 68,
-    "date": "2025-05-17",
-    "team1": "RCB",
-    "team2": "KKR",
-    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "match_id": 60,
+    "date": "2025-05-18",
+    "team1": "DC",
+    "team2": "GT",
+    "venue": "Arun Jaitley Stadium, Delhi",
     "winner": null
   },
   {
-    "match_id": 69,
-    "date": "2025-05-18",
-    "team1": "GT",
-    "team2": "CSK",
-    "venue": "Narendra Modi Stadium, Ahmedabad",
-    "winner": null
-  },
-  {
-    "match_id": 70,
-    "date": "2025-05-18",
+    "match_id": 61,
+    "date": "2025-05-19",
     "team1": "LSG",
     "team2": "SRH",
     "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
     "winner": null
   },
   {
-    "match_id": 71,
+    "match_id": 62,
     "date": "2025-05-20",
-    "team1": "Qualifier 1",
-    "team2": "",
-    "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+    "team1": "CSK",
+    "team2": "RR",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "winner": null
+  },
+  {
+    "match_id": 63,
+    "date": "2025-05-21",
+    "team1": "MI",
+    "team2": "DC",
+    "venue": "Wankhede Stadium, Mumbai",
+    "winner": null
+  },
+  {
+    "match_id": 64,
+    "date": "2025-05-22",
+    "team1": "GT",
+    "team2": "LSG",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "winner": null
+  },
+  {
+    "match_id": 65,
+    "date": "2025-05-23",
+    "team1": "RCB",
+    "team2": "SRH",
+    "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
+    "winner": null
+  },
+  {
+    "match_id": 66,
+    "date": "2025-05-24",
+    "team1": "PBKS",
+    "team2": "DC",
+    "venue": "Sawai Mansingh Stadium, Jaipur",
+    "winner": null
+  },
+  {
+    "match_id": 67,
+    "date": "2025-05-25",
+    "team1": "GT",
+    "team2": "CSK",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "winner": null
+  },
+  {
+    "match_id": 68,
+    "date": "2025-05-25",
+    "team1": "SRH",
+    "team2": "KKR",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "winner": null
+  },
+  {
+    "match_id": 69,
+    "date": "2025-05-26",
+    "team1": "PBKS",
+    "team2": "MI",
+    "venue": "Sawai Mansingh Stadium, Jaipur",
+    "winner": null
+  },
+  {
+    "match_id": 70,
+    "date": "2025-05-27",
+    "team1": "LSG",
+    "team2": "RCB",
+    "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
+    "winner": null
+  },
+  {
+    "match_id": 71,
+    "date": "2025-05-29",
+    "team1": "PBKS",
+    "team2": "RCB",
+    "venue": "Mullanpur",
     "winner": null
   },
   {
     "match_id": 72,
-    "date": "2025-05-21",
-    "team1": "Eliminator",
-    "team2": "",
-    "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+    "date": "2025-05-30",
+    "team1": "GT",
+    "team2": "MI",
+    "venue": "Mullanpur",
     "winner": null
   },
   {
     "match_id": 73,
-    "date": "2025-05-23",
+    "date": "2025-06-01",
     "team1": "Qualifier 2",
     "team2": "",
     "venue": "Eden Gardens, Kolkata",
@@ -577,7 +561,7 @@
   },
   {
     "match_id": 74,
-    "date": "2025-05-25",
+    "date": "2025-06-03",
     "team1": "Final",
     "team2": "",
     "venue": "Eden Gardens, Kolkata",
