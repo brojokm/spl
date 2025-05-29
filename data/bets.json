@@ -3145,8 +3145,8 @@
     "prediction": "RR",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 20000000,
     "timestamp": "2025-05-29T15:20:06.407246"
   },
   {
@@ -3155,8 +3155,8 @@
     "prediction": "RR",
     "amount": 10000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 20000000,
     "timestamp": "2025-05-29T15:20:18.916260"
   },
   {
@@ -3165,8 +3165,8 @@
     "prediction": "RR",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-05-29T15:20:43.903478"
   },
   {
@@ -3175,7 +3175,7 @@
     "prediction": "CSK",
     "amount": 136000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:22:07.879989"
   },
@@ -3185,7 +3185,7 @@
     "prediction": "CSK",
     "amount": 6000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:22:40.959728"
   }
