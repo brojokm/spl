@@ -3015,7 +3015,7 @@
     "prediction": "MI",
     "amount": 25000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:08:54.163775"
   },
@@ -3025,7 +3025,7 @@
     "prediction": "MI",
     "amount": 25000000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:09:15.971308"
   }
