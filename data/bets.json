@@ -3115,7 +3115,7 @@
     "prediction": "LSG",
     "amount": 20000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:17:55.200968"
   },
@@ -3125,8 +3125,8 @@
     "prediction": "SRH",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 10000000,
     "timestamp": "2025-05-29T15:18:25.548995"
   },
   {
@@ -3135,8 +3135,8 @@
     "prediction": "SRH",
     "amount": 8000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 16000000,
     "timestamp": "2025-05-29T15:18:38.081629"
   }
 ]
