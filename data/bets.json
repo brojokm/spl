@@ -3065,8 +3065,8 @@
     "prediction": "PBKS",
     "amount": 30000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 60000000,
     "timestamp": "2025-05-29T15:12:07.212502"
   }
 ]
