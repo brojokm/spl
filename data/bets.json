@@ -3168,5 +3168,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-29T15:20:43.903478"
+  },
+  {
+    "match_id": 62,
+    "team": "BizTech - Kings",
+    "prediction": "CSK",
+    "amount": 136000000,
+    "is_home_team": true,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-29T15:22:07.879989"
   }
 ]
