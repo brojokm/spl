@@ -3195,8 +3195,8 @@
     "prediction": "MI",
     "amount": 20000000,
     "is_home_team": false,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-05-29T15:24:03.906191"
   },
   {
@@ -3205,8 +3205,8 @@
     "prediction": "MI",
     "amount": 300000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 1200000000,
     "timestamp": "2025-05-29T15:24:27.966813"
   },
   {
@@ -3215,8 +3215,8 @@
     "prediction": "MI",
     "amount": 260000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 1040000000,
     "timestamp": "2025-05-29T15:24:45.436583"
   }
 ]
