@@ -3278,5 +3278,15 @@
     "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-29T15:34:27.253766"
+  },
+  {
+    "match_id": 66,
+    "team": "The Winning Team",
+    "prediction": "DC",
+    "amount": 5000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-29T15:34:41.786897"
   }
 ]
