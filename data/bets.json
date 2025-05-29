@@ -3245,7 +3245,7 @@
     "prediction": "RCB",
     "amount": 504500000,
     "is_home_team": true,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:27:58.788659"
   },
@@ -3255,7 +3255,7 @@
     "prediction": "RCB",
     "amount": 100000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:28:23.220545"
   },
@@ -3265,7 +3265,7 @@
     "prediction": "RCB",
     "amount": 100000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:28:50.086720"
   }
