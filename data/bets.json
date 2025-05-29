@@ -3218,5 +3218,15 @@
     "status": "won",
     "winnings": 1040000000,
     "timestamp": "2025-05-29T15:24:45.436583"
+  },
+  {
+    "match_id": 64,
+    "team": "BizTech - Royals",
+    "prediction": "GT",
+    "amount": 50000000,
+    "is_home_team": false,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-29T15:26:23.649821"
   }
 ]
