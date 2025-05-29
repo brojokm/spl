@@ -3225,7 +3225,7 @@
     "prediction": "GT",
     "amount": 50000000,
     "is_home_team": false,
-    "status": "lost",
+    "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-29T15:26:23.649821"
   },
@@ -3235,8 +3235,18 @@
     "prediction": "GT",
     "amount": 20000000,
     "is_home_team": false,
-    "status": "lost",
+    "status": "pending",
     "winnings": 0,
     "timestamp": "2025-05-29T15:26:42.419809"
+  },
+  {
+    "match_id": 65,
+    "team": "BizTech - Royals",
+    "prediction": "RCB",
+    "amount": 504500000,
+    "is_home_team": true,
+    "status": "pending",
+    "winnings": 0,
+    "timestamp": "2025-05-29T15:27:58.788659"
   }
 ]
