@@ -3035,7 +3035,7 @@
     "prediction": "KKR",
     "amount": 5000000,
     "is_home_team": false,
-    "status": "pending",
+    "status": "lost",
     "winnings": 0,
     "timestamp": "2025-05-29T15:10:33.217262"
   },
@@ -3045,8 +3045,8 @@
     "prediction": "CSK",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-05-29T15:10:53.558874"
   },
   {
@@ -3055,8 +3055,8 @@
     "prediction": "CSK",
     "amount": 10000000,
     "is_home_team": true,
-    "status": "pending",
-    "winnings": 0,
+    "status": "won",
+    "winnings": 40000000,
     "timestamp": "2025-05-29T15:11:09.543063"
   }
 ]
